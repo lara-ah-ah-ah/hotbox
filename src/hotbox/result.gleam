@@ -9,7 +9,7 @@ pub type HotboxError {
   UnknownOSError
   UnsupportedError
   MissingFileError(String)
-  EUnreachable()
+  EUnreachable
 }
 
 pub fn error_as_string(error: HotboxError) {
@@ -21,7 +21,8 @@ pub fn error_as_string(error: HotboxError) {
     UnknownOSError -> "Unknown OS"
     UnsupportedError -> "This functionality isn't supported yet"
     MissingFileError(path) -> "Couldn't find " <> path
-    EUnreachable() -> "This case should not be possible and is, indeed, only included for \"gleam reasons\"™\n\nThe fact that you ended up here means either that I made a very embarrassing mistake or that reality has changed in a way that I did not foresee\n\nPlease be appropriately horrified by this change of uncertain magnitude and, if still appropriate, make an issue at https://github.com/lara-ah-ah-ah/hotbox"
+    EUnreachable ->
+      "This case should not be possible and is, indeed, only included for \"gleam reasons\"™\n\nThe fact that you ended up here means either that I made a very embarrassing mistake or that reality has changed in a way that I did not foresee\n\nPlease be appropriately horrified by this change of uncertain magnitude and, if still appropriate, make an issue at https://github.com/lara-ah-ah-ah/hotbox"
   }
 }
 

@@ -1,5 +1,5 @@
 name = "hotbox"
-version = "0.1.1"
+version = "0.2.0"
 
 description = "Improve software performance by moving as much of a directory's contents to a ramdisk as possible"
 licences = ["Unlicense"]
