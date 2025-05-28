@@ -1,7 +1,7 @@
 name = "hotbox"
-version = "0.1.0"
+version = "0.1.1"
 
-description = "Improve software performance by moving as much of a directory's contents to a ramdisk"
+description = "Improve software performance by moving as much of a directory's contents to a ramdisk as possible"
 licences = ["Unlicense"]
 repository = { type = "github", user = "lara-ah-ah-ah", repo = "hotbox" }
 
