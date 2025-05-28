@@ -2,6 +2,6 @@
 
 pub const name = "hotbox"
 
-pub const version = "0.2.0"
+pub const version = "0.3.0"
 
 pub const description = "Improve software performance by moving as much of a directory's contents to a ramdisk as possible"
